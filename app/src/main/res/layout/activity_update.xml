@@ -1,0 +1,91 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".UpdateActivity"
+    android:orientation="vertical"
+    android:gravity="center">
+
+    <TextView
+        android:id="@+id/header_titleBook"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Book Title :"
+        android:textSize="18sp"
+        android:gravity="center"/>
+
+    <EditText
+        android:id="@+id/input_BookTitleUpdate"
+        android:layout_width="match_parent"
+        android:layout_height="50dp"
+        android:hint="Book Title"
+        android:inputType="text"
+        android:textSize="17sp"
+        android:layout_marginTop="5dp"
+        android:layout_marginStart="30dp"
+        android:layout_marginEnd="30dp"
+        android:layout_marginBottom="10dp"/>
+
+    <TextView
+        android:id="@+id/header_authorBook"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Book Author :"
+        android:textSize="18sp"
+        android:gravity="center"/>
+
+    <EditText
+        android:id="@+id/input_BookAuthorUpdate"
+        android:layout_width="match_parent"
+        android:layout_height="50dp"
+        android:hint="Book Author"
+        android:inputType="text"
+        android:textSize="17sp"
+        android:layout_marginTop="5dp"
+        android:layout_marginStart="30dp"
+        android:layout_marginEnd="30dp"
+        android:layout_marginBottom="10dp"/>
+
+    <TextView
+        android:id="@+id/header_pagesBook"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Book Pages :"
+        android:textSize="18sp"
+        android:gravity="center"/>
+
+    <EditText
+        android:id="@+id/input_BookPagesUpdate"
+        android:layout_width="match_parent"
+        android:layout_height="50dp"
+        android:hint="Book Pages"
+        android:inputType="number"
+        android:textSize="17sp"
+        android:layout_marginTop="5dp"
+        android:layout_marginStart="30dp"
+        android:layout_marginEnd="30dp"
+        android:layout_marginBottom="20dp"/>
+
+    <Button
+        android:id="@+id/update_button"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Update"
+        android:textSize="20sp"
+        android:layout_marginStart="30dp"
+        android:layout_marginEnd="30dp"/>
+
+    <Button
+        android:id="@+id/delete_button"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Delete"
+        android:textColor="@color/red"
+        android:textSize="20sp"
+        android:layout_marginTop="7dp"
+        android:layout_marginStart="30dp"
+        android:layout_marginEnd="30dp"/>
+
+</LinearLayout>
